@@ -1,7 +1,7 @@
 # Existing rcfiles
-SRC_BASH_RC="./.bashrc"
-SRC_BASH_PROFILE="./.bash_profile"
-SRC_GIT_COMPLETION="./git-completion.bash"
+SRC_BASH_RC="$(realpath .bashrc)"
+SRC_BASH_PROFILE="$(realpath .bash_profile)"
+SRC_GIT_COMPLETION="$(realpath git-completion.bash)"
 DST_BASH_RC="${HOME}/.bashrc"
 DST_BASH_PROFILE="${HOME}/.bash_profile"
 DST_GIT_COMPLETION="${HOME}/git-completion.bash"
